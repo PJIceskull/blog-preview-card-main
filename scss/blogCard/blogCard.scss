@@ -50,6 +50,9 @@ article {
   p {
     margin-bottom: 0;
     font-family: Figtree-ExtraBold;
+    &::selection {
+      background-color: map-get($map: $colors, $key: "grey");
+    }
   }
 }
 
