@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/blog-preview-card-solution-using-sass-y9Hsi_x20X](https://www.frontendmentor.io/solutions/blog-preview-card-solution-using-sass-y9Hsi_x20X)
 - Live Site URL: [Github Pages](https://pjiceskull.github.io/blog-preview-card-main/)
 
 ## My process
