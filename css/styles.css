@@ -1,0 +1,143 @@
+@font-face {
+  font-family: Figtree-SemiBold;
+  src: url(fonts/static/Figtree-SemiBold.ttf);
+}
+@font-face {
+  font-family: Figtree-ExtraBold;
+  src: url(fonts/static/Figtree-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Figtree-VF;
+  src: url(fonts/Figtree-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Figtree-SemiBold-VF;
+  src: url(fonts/Figtree-SemiBold-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Figtree-SemiBold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 50%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+h1,
+h2 {
+  font-family: Figtree-ExtraBold;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 25px;
+}
+
+article {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 400px;
+  min-height: 500px;
+  border-radius: 25px;
+  border: 1px solid hsl(0, 0%, 7%);
+  padding: 25px;
+  box-shadow: 7px 7px 0px 0px hsl(0, 0%, 7%);
+  transition: 0.4s;
+}
+article:hover {
+  box-shadow: 17px 17px 0px 3px hsl(0, 0%, 7%);
+}
+article h1 {
+  font-size: clamp(1.25rem, 1.35vw, 1.5rem);
+  cursor: pointer;
+  transition: 0.25s;
+}
+article h1:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+.headerPic {
+  display: block;
+  border-radius: 12.5px;
+  overflow: hidden;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.headerPic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tagBox {
+  background-color: hsl(47, 88%, 63%);
+  padding: 7.5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 50px;
+  width: 90px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.tagBox p {
+  margin-bottom: 0;
+  font-family: Figtree-ExtraBold;
+}
+
+.cardDesc {
+  color: hsl(0, 0%, 50%);
+  line-height: 25px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+section p {
+  margin-bottom: 0;
+}
+
+.userProfile img {
+  width: 35px;
+  margin-right: 20px;
+  transition: 0.5s;
+}
+.userProfile img:hover {
+  width: 50px;
+}
+.userProfile p {
+  font-family: Figtree-ExtraBold;
+}
+
+/*# sourceMappingURL=styles.css.map */

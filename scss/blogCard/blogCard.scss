@@ -1,0 +1,81 @@
+article {
+  background-color: map-get($map: $colors, $key: "white");
+  max-width: 400px;
+  min-height: 500px;
+  border-radius: 25px;
+  border: 1px solid map-get($map: $colors, $key: "black");
+  padding: 25px;
+  box-shadow: 7px 7px 0px 0px map-get($map: $colors, $key: "black");
+  transition: 0.4s;
+  &:hover {
+    box-shadow: 17px 17px 0px 3px map-get($map: $colors, $key: "black");
+  }
+  h1 {
+    // font-size: clamp(21px, 1.3125vw, 24px);
+    font-size: clamp(1.25rem, 1.35vw, 1.5rem);
+    cursor: pointer;
+    transition: 0.25s;
+    &:hover {
+      color: map-get($map: $colors, $key: "yellow");
+    }
+  }
+}
+.headerPic {
+  display: block;
+  border-radius: 12.5px;
+  overflow: hidden;
+  height: 200px;
+  margin-bottom: 20px;
+  //   background-image: url(../images/illustration-article.svg);
+  //   background-size: cover;
+  //   background-position: center;
+  //   background-repeat: no-repeat;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.tagBox {
+  background-color: map-get($map: $colors, $key: "yellow");
+  padding: 7.5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 50px;
+  width: 90px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  p {
+    margin-bottom: 0;
+    font-family: Figtree-ExtraBold;
+  }
+}
+
+.cardDesc {
+  color: map-get($map: $colors, $key: "grey");
+  line-height: 25px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  p {
+    margin-bottom: 0;
+  }
+}
+.userProfile {
+  img {
+    width: 35px;
+    margin-right: 20px;
+    transition: 0.5s;
+    &:hover {
+      width: 50px;
+    }
+  }
+  p {
+    font-family: Figtree-ExtraBold;
+  }
+}

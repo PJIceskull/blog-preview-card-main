@@ -1,0 +1,18 @@
+// Theme Colors
+$Yellow: hsl(47, 88%, 63%);
+$White: hsl(0, 0%, 100%);
+$Grey: hsl(0, 0%, 50%);
+$Black: hsl(0, 0%, 7%);
+// palette
+$colors: (
+  "yellow": $Yellow,
+  "white": $White,
+  "grey": $Grey,
+  "black": $Black,
+);
+// @debug map-get($map: $colors, $key: "yellow");
+
+$site-width: 1280px;
+// $-site-height: 800px;
+$Mobile-width: 375px;
+$Desktop-width: 1440px;
